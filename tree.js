@@ -278,3 +278,4 @@ function rebalance (tree) {
   return buildTree(orderedArray, 0, orderedArray.length - 1);
 };
 
+export {Node, Tree, buildTree, prettyPrint, levelOrder, levelOrderRecur, inOrder, preOrder, postOrder, height, depth, isBalanced, rebalance};

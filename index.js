@@ -1,4 +1,4 @@
-
+import './tree';
 
 // Create an array of random numbers given size of array
 function createRandomArray (size) {
